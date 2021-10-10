@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ghost-button {
+            background: none;
+                align-items: center;
+                display: inline-block;
+                padding: 25px 40px;
+                border: 3px solid #f0ebe3;
+                margin: 0 auto;
+                color: rgb(253, 250, 253);
+                text-align: center;
+                justify-content: center;
+                display: grid; 
+                width: 50%;
+                height: 20%;
+            }
+            .ghost-button:hover {
+                background-color:#f0ebe3;
+                color: rgb(149, 35, 172);
+            }
+            @media screen and (max-width:1200px){
+                div{
+                    height:100vh;
+                }
+            }
+        </style>
+    </head>
+    <body style="width: 100%; height: 1000px; background-color:#b088f9;">
+        <div>
+        <br>
+        <p style="text-align: center; color: rgb(253, 250, 253); margin-top: 10%; font-size: 3em; height: 10%;">두번째 걸음입니다.</p>
+        <p style="text-align: center; color: rgb(253, 250, 253); font-size: 2em; height: 10%;">자신에게 어울리는 향을 찾기 위해서 조금 더 자신을 알아야할 필요가 있습니다.</p>
+        <p></p>
+        <p></p>
+        <p style="text-align: center; color: rgb(253, 250, 253); font-size: 2em; height: 10%;">둘 중 자신과 더 잘맞는 것같은 선택지를 고르십시오.</p>
+<button type="button" onClick="location.href='/q06?num1={{ num1 }}&num2={{ num2 }}&num3={{ num3 }}&num4={{ num4 }}&num5=01'" value="01" name="01"class="ghost-button" style="text-decoration:none; font-size: 2em; margin-top: 5%;">이전의 경험에 의존하는 편입니다.</button>
+<p></p>
+<button type="button" onClick="location.href='/q06?num1={{ num1 }}&num2={{ num2 }}&num3={{ num3 }}&num4={{ num4 }}&num5=02'" value="02" name="02"class="ghost-button" style="text-decoration:none; font-size: 2em; margin-top: 5%;">일을 진행할 때 이전과는 다른 나만의 방법으로 진행하는 것을 좋아합니다.</button>
+        </div>
+    </body>
+</html>

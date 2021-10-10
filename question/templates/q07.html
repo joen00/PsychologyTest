@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ghost-button {
+            background: none;
+                align-items: center;
+                display: inline-block;
+                padding: 25px 40px;
+                border: 3px solid #edebf1;
+                margin: 0 auto;
+                color: rgb(253, 250, 253);
+                text-align: center;
+                justify-content: center;
+                display: grid; 
+                width: 50%;
+                height: 20%;
+            }
+            .ghost-button:hover {
+                background-color:#f0ebe3;
+                color: rgb(211, 55, 211);;
+            }
+            @media screen and (max-width:1200px){
+                div{
+                    height:100vh;
+                }
+            }
+        </style>
+    </head>
+    <body style="width: 100%; height: 1000px; background-color:#da9ff9;">
+        <div>
+        <br>
+        <p style="text-align: center; color: rgb(211, 55, 211); margin-top: 10%; font-size: 3em; height: 10%;">음 뭔가 당신에게 어울릴만한 향을 추천할 수 있을 것같습니다.</p>
+        <p style="text-align: center; color: rgb(211, 55, 211); font-size: 2em; height: 10%;">하지만 조금 더 알아야할 것이 필요합니다.</p>
+        <p></p>
+        <p></p>
+        <p style="text-align: center; color: rgb(211, 55, 211); font-size: 2em; height: 10%;">둘 중 자신과 더 잘맞는 것같은 선택지를 고르십시오.</p>
+        
+        
+<button type="button" onClick="location.href='/q08?num1={{ num1 }}&num2={{ num2 }}&num3={{ num3 }}&num4={{ num4 }}&num5={{ num5 }}&num6={{ num6 }}&num7=01'" value="01" name="01" class="ghost-button" style="text-decoration:none; font-size: 2em; margin-top: 5%;">친구가 슬픈 일이 있을 때 왜 슬픈지 판단하는 것보다 공감과 위로를 해줍니다.</button>
+     <p></p>
+     <button type="button" onClick="location.href='/q08?num1={{ num1 }}&num2={{ num2 }}&num3={{ num3 }}&num4={{ num4 }}&num5={{ num5 }}&num6={{ num6 }}&num7=02'" value="02" name="02"class="ghost-button" style="text-decoration:none; font-size: 2em; margin-top: 5%;">중요한 일은 감정보다 논리적으로 판단하여 결정합니다.</button>
+        </div>
+    </body>
+</html>
